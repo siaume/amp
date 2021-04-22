@@ -1,4 +1,3 @@
-<script type='text/javascript'>
 var fixd;
 
 function isGregLeapYear(year)
@@ -73,4 +72,3 @@ fixd=gregToFixed(y, m, d);
 var h=new Hijri(1421, 11, 28);
 h = fixedToHijri(fixd);
 document.write(" | "+h.toString());
-</script>
